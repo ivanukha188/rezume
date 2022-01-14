@@ -160,4 +160,22 @@ header{
     margin: 0 auto;
     margin-top: 100px;
     font-size: 35px;
+    color: chartreuse;
+}
+.footer_block_one{
+    display: grid;
+    width: 600px;
+    height: 600px;
+}
+.footer_text_2{
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 30px;
+    width: 1200px;
+}
+.text_info_1{
+    font-size: 25px;
+}
+.footer_text_info_1{
+    font-size: 25px;
 }
