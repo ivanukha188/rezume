@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="container">
+ <div class="container">
         <header class="header">
             <div class="header_navigation">
                 <div class="header_navigation_block1">
@@ -40,6 +40,7 @@
         </header>
         <main class="main">
                 <p class="main_center_text">Про мене </p>
+                <div class="little_line"></div>
             <div class="main_blocks">
                    <div>
                      <p class="main_text_block1">Немного о себе
@@ -61,39 +62,91 @@
                            <p class="main_text3">Курси в інтернеті, відеокурси, книги, документація, форуми, статті...</p>
                     </div>
             </div>
+            <div class="part2_main">
+                <p class="main_part2_center_text">Профессиональные навыки </p>
+                <div class="little_line"></div>
+                <div class="main_part2_sodom_block">
+                    <div class="main_part2_profesional_block">
+                        <p class="profesional_text">HTML5|CSS3</p>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="main_part2_profesional_block">
+                        <p class="profesional_text">jQuery|JavaScript</p>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="main_part2_profesional_block">
+                        <p class="profesional_text">PHP|MySQL</p>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="main_part2_profesional_block">
+                        <p class="profesional_text">Photoshop</p>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="part3_main">
+                <p class="part3_main_text">Портфолио</p>
+                <div class="little_line"></div>
+            </div>
         </main>
-        <footer class="footer">
+     <footer class="footer">
                 <p class="footer_text">Контакти</p>
+                <div class="little_line"></div>
                 <p class="footer_text_2">
                     Якщо у вас є питання, я з радістю відповім на них! Для цього зв'яжіться зі мною зручним для вас способом, і я відповім Вам найближчим часом!
                 </p>
+        <div class="footer_2pac">
             <div class="footer_block_one">
+             <div>
                 <div class="footer_info_img_1">
                     <img src="img/email.png">
                     <p class="text_info_1">E-mail:</p>
                     <p class="footer_text_info_1">zollex69@gmail.com</p>
                 </div>
-                <div class="footer_info_img_2">
+                <div class="footer_info_img_1">
                     <img src="img/lcd.png">
                     <p class="text_info_1">Web-сайт:</p>
                     <p class="footer_text_info_1">zollex69@gmail.com</p>
                 </div>
-                <div class="footer_info_img_3">
+            </div>
+            <div>
+                <div class="footer_info_img_1">
                     <img src="img/instagram.png">
                     <p class="text_info_1">instagram</p>
                     <p class="footer_text_info_1">zollex69@gmail.com</p>
                 </div>
-                <div class="footer_info_img_4">
+                <div class="footer_info_img_1">
                     <img src="img/telegram.png">
                     <p class="text_info_1">E-mail:</p>
                     <p class="footer_text_info_1">zollex69@gmail.com</p>
                 </div>
-            </div>
+             </div>
             <div class="footer_block_two">
+                <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
                 
-            </div>
-        </footer>
-    </div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
+                </div>
+        </div>
+     </footer>
+  </div>
 </body>
 
 </html>
